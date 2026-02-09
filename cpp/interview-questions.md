@@ -82,7 +82,6 @@ Provides mutual exclusion; only one thread accesses a shared resource at a time.
 
 ### 24. What is Atomic?  
 Lock-free, thread-safe operations on single variables; requires correct memory ordering.  
-```cpp
 std::atomic<int> counter{0};
 counter.fetch_add(1, std::memory_order_relaxed);
 
