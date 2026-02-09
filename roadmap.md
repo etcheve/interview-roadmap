@@ -6,6 +6,29 @@ The emphasis is on **correctness, performance, latency, and failure modes** — 
 
 The list is intentionally **non-exhaustive** and unordered by difficulty. Topics are revisited iteratively depending on the role (low-latency, backend, infrastructure, or quantitative systems).
 
+## A note on writing software
+
+When I look for areas to improve, I try to start by understanding what my job actually is and which tasks I perform most often.
+
+As a software developer, I write code, but I **read far more code than I write**, and the code I produce will be read many more times than it was written.
+
+Software needs to be easy to modify.  
+To modify code, we need to be able to **understand** it.
+
+Readable code starts with:
+- clear and consistent naming (variables, methods, files, folders)
+- simple and explicit control flow
+- well-defined responsibilities
+
+Whenever possible:
+- prefer **well-established solutions** (design patterns, known architectural styles)
+- reuse **language and ecosystem primitives** instead of reinventing them
+- avoid cleverness in favor of clarity
+
+Code is a communication tool first.  
+Performance and correctness matter, especially in finance, but unreadable code is a long-term liability.
+
+
 ---
 
 ## Linux / OS fundamentals
