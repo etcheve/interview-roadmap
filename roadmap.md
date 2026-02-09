@@ -166,5 +166,13 @@ Performance and correctness matter, especially in finance, but unreadable code i
 
 ---
 
+## Video Analysis
+A good way to improve is to watch technical videos and extract the key ideas.  
+Below is a list of videos I’ve watched along with a **quick summary** of each:
+
+
+--- 
+
 This roadmap is used as a personal reference and evolves over time as understanding deepens and interview expectations change.
+
 
