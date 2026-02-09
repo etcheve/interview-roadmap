@@ -2,7 +2,7 @@
 
 This roadmap reflects how I organize and revisit topics when preparing for **software engineering roles in the financial sector**, with a primary focus on **C++ and systems-level development**.
 
-The emphasis is on **correctness, performance, latency, and failure modes** — concerns that are especially relevant in finance (trading systems, market data, risk engines, and low-latency infrastructure).
+The emphasis is on **correctness, performance, latency, and failure modes** concerns that are especially relevant in finance (trading systems, market data, risk engines, and low-latency infrastructure).
 
 The list is intentionally **non-exhaustive** and unordered by difficulty. Topics are revisited iteratively depending on the role (low-latency, backend, infrastructure, or quantitative systems).
 
@@ -28,6 +28,8 @@ Whenever possible:
 Code is a communication tool first.  
 Performance and correctness matter, especially in finance, but unreadable code is a long-term liability.
 
+## Design Patterns
+[Design Patterns](https://github.com/etcheve/CPP-Examples/tree/master/design_patterns)
 
 ---
 
